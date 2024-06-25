@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import {Card} from '../../components/card'
+import {Card} from './../components/card'
 
 export default function Home() {
   return (
@@ -26,7 +26,6 @@ export default function Home() {
               priority
             />
           </a>
-          <Card />
         </div>
       </div>
 
@@ -39,6 +38,7 @@ export default function Home() {
           height={37}
           priority
         />
+        <Card />
       </div>
 
       <div className={styles.grid}>
