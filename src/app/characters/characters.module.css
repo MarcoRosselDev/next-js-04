@@ -1,0 +1,18 @@
+.main_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid pink;
+  flex-flow: row wrap;
+}
+
+.item{
+  border: 5px solid lightskyblue;
+  padding: 5px;
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
