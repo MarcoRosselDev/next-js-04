@@ -38,8 +38,8 @@ export default function Home() {
           height={37}
           priority
         />
-        <Card />
       </div>
+        <Card />
 
       <div className={styles.grid}>
         <a
