@@ -1,4 +1,4 @@
-export function Card() {
+export default function Card() {
   return (
     <div>
 {/*       <a href="http://localhost:3000/characters" target="_blank" rel="noopener noreferrer">*/}      
