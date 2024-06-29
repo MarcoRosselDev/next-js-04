@@ -41,10 +41,16 @@ export function ModeToggle() {
 }
 
 export default function Mode() {
-  const {setTheme } = useTheme()
+  const { theme, setTheme } = useTheme()
+
+  console.log(theme);
+  
+
   return (
-    <p>
-      
+    <p onClick={() =>{
+      theme === "dark"? setTheme('light'): setTheme("dark")
+    }}>
+      {theme === "dark"? "light" : "dark"}
     </p>
   )
 }
