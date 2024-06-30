@@ -2,24 +2,22 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Card from "./../components/card";
 import Mode from "./../components/mode";
-import { useTheme } from "next-themes";
+import { lusitana , jim_Nightshade} from '@/app/ui/fonts';
 
 export default function Home() {
-
-  //const {theme, setTheme} = useTheme()
-
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <Mode></Mode>
       </div>
       <div className={styles.description}>
-        <p>
+        <p className={lusitana.className}>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <Mode />
         <div>
+          <p className={jim_Nightshade.className}>Hola buenos dias</p>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
