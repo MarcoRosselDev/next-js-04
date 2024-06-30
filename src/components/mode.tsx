@@ -47,10 +47,13 @@ export default function Mode() {
   
 
   return (
-    <p onClick={() =>{
-      theme === "dark"? setTheme('light'): setTheme("dark")
-    }}>
-      {theme === "dark"? "light" : "dark"}
-    </p>
+    <>
+      <p onClick={() =>{
+        setTheme('light')
+      }}>light</p>
+      <p onClick={() =>{
+        setTheme('dark')
+      }}>dark</p>
+    </>
   )
 }

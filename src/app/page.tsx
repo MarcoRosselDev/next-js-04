@@ -2,10 +2,17 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Card from "./../components/card";
 import Mode from "./../components/mode";
+import { useTheme } from "next-themes";
 
 export default function Home() {
+
+  //const {theme, setTheme} = useTheme()
+
   return (
     <main className={styles.main}>
+      <div className={styles.description}>
+        <Mode></Mode>
+      </div>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
