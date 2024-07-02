@@ -1,12 +1,11 @@
 import styles from "./page.module.css";
+import Header from "./header/header";
 import { lusitana , jim_Nightshade} from '@/app/ui/fonts';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <header>
-        <p>hola soy el header</p>
-      </header>
+      <Header />
       <main>
         <p>Hola soy el main</p>
       </main>
